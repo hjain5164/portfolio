@@ -1,17 +1,25 @@
 {
-  "name": "modern_portfolio",
+  "name": "my_portfolio",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "",
   "main": "index.js",
-  "homepage": "https://bradtraversy.github.io/modern_portfolio",
+  "homepage": "https://hjain5164.github.io/portfolio",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.11.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
-  "dependencies": {
-    "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjain5164/portfolio.git"
+  },
+  "author": "Harsh Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjain5164/portfolio/issues"
   }
 }
