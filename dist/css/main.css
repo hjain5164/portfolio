@@ -30,7 +30,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.97;
   visibility: hidden;
 }
 .menu.show {
@@ -69,7 +69,7 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("/img/profile.jpg");
+  background: url("../img/profile.jpg");
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
