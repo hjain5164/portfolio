@@ -88,6 +88,6 @@ window.onload = function() {
   var css = document.createElement("style");
   css.type = "text/css";
   css.innerHTML =
-    ".txt-rotate > .wrap {  margin: 0; font-weight: 400; margin-bottom: 2rem; padding: 0.2rem 1rem; background: rgba(73, 73, 73, 0.5); }";
+    ".txt-rotate > .wrap { border-right: 0.08em solid white;  margin: 0;  font-family: 'Raleway', sans-serif; font-weight: 400; margin-bottom: 2rem;  }";
   document.body.appendChild(css);
 };
