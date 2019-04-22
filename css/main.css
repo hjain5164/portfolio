@@ -139,7 +139,7 @@ body#bg-img:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(68, 68, 68, 0.9);
+  background: rgba(68, 68, 68, 0.45);
 }
 
 h1,
@@ -154,7 +154,7 @@ h3.lg-heading {
   font-size: 6rem;
 }
 h1.sm-heading,
-h2.sm-heading,
+/* h2.sm-heading, */
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
